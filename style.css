@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  padding:0;
+  background-image: url(./img/blue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.image{
+background-color: wheat;
+min-height: 100vh;
+width: 100%;
+max-width: 1000px;
+margin-right: auto;
+margin-left: auto;
+}
+
+#title, #description{
+    text-align: center;
+    justify-content: center;
+}
+
+#survey-form{
+    background-color: white;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.form-section{
+    margin:50px;
+    margin-right: 50px;
+}
+.form-row{
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.label1{
+    font-family: 'open sans' sans-serif;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1rem;
+    letter-spacing: 1px;
+}
+
+@media (max-width:320px) {
+    .label1{
+       font-size: 1.2rem;
+       font-weight: bold;
+       margin-bottom: 10px;
+      
+       width: 100%;
+       line-height: 1rem;
+    }
+
+    .form-row
+   .input-container input[type="text"], .input-container select{
+  width: 50%;
+  height: 25px;
+  padding:0 10px;
+
+}
+
+}
+.form-row
+.input-container input[type="text"], .input-container select{
+width: 50%;
+height: 35px;
+padding:0 10px;
+
+
+}
+
+
+
+.form-row .textarea-section textarea{
+    width:100%;
+}
+.button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+}
+.button-section button{
+background:blue;
+padding:8px 40px;
+border:none;
+color:white;
+width:50%;
+margin-bottom: 20px;
+border-radius: 10px 10px 10px 10px;
+cursor: pointer;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
